@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samaksh Budhia | Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            corePlugins: {
+                preflight: false
+            }
+        };
+    </script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +23,7 @@
 <body>
 
     <nav class="navbar animate-on-load">
-        <div class="container nav-content">
+        <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full flex items-center justify-between">
             <a href="#home" class="nav-logo">
                 <svg viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 24l-2.5-8.5L1 12l8.5-2.5z"/></svg>
                 <span class="italic" style="font-weight: 300;">Samaksh Budhia</span>
@@ -36,7 +45,7 @@
 
     <main>
         <section id="home" class="hero">
-            <div class="container hero-grid">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full grid grid-cols-1 items-center gap-12 min-[900px]:grid-cols-[7fr_5fr]">
                 <div class="animate-on-load delay-1">
                     <div class="tag-pill">
                         <div class="tag-dot"></div>
@@ -64,7 +73,7 @@
             </div>
         </section>
 
-        <div class="container">
+        <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full">
             <div class="section-divider animate-on-load delay-3">
                 <div class="line"></div>
                 <svg class="divider-icon" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 24l-2.5-8.5L1 12l8.5-2.5z"/></svg>
@@ -73,7 +82,7 @@
         </div>
 
         <section id="about">
-            <div class="container about-grid">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full grid gap-16 min-[900px]:grid-cols-[5fr_7fr] min-[900px]:items-center">
                 <div class="animate-on-load delay-1">
                     <p class="section-label">A Little About Me</p>
                     <h2 class="section-title">Curious <br><span class="italic text-copper">By Nature</span></h2>
@@ -115,7 +124,7 @@
         </section>
 
         <section id="education" class="timeline-section">
-            <div class="container timeline-container">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full timeline-container">
                 <div style="text-align: center; margin-bottom: 80px;" class="animate-on-load delay-1">
                     <p class="section-label" style="color: #C06B3E;">My Education</p>
                     <h2 class="section-title" style="margin-bottom: 0;">What I’ve Studied</h2>
@@ -192,7 +201,7 @@
         </section>
 
         <section id="projects">
-            <div class="container">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full">
                 <div class="bento-header animate-on-load delay-1">
                     <div>
                         <p class="section-label" style="color: #008F8C;">Things I’ve Made</p>
@@ -256,7 +265,7 @@
         </section>
 
         <section id="contact" class="contact-section">
-            <div class="container contact-container animate-on-load delay-1">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full contact-container animate-on-load delay-1">
                 <svg class="contact-motif" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 24l-2.5-8.5L1 12l8.5-2.5z"/></svg>
                 
                 <p class="section-label">Contact</p>
@@ -277,7 +286,7 @@
         </section>
 
         <footer>
-            <div class="container">
+            <div class="container w-[1200px] max-w-full mx-auto px-6 max-[1248px]:w-full">
                 <p class="footer-text">Thanks for stopping by</p>
             </div>
         </footer>
