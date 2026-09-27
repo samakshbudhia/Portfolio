@@ -68,19 +68,6 @@ h4,
     color: #C06B3E;
 }
 
-.container {
-    max-width: 100%;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
-@media (max-width:1248px) {
-    .container {
-        width: 100%;
-    }
-}
-
 /* Intro animation */
 @keyframes fadeUp {
     from {
@@ -133,13 +120,6 @@ h4,
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(192, 107, 62, 0.1);
-}
-
-.nav-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
 }
 
 .nav-logo {
@@ -198,19 +178,6 @@ h4,
     align-items: center;
     padding-top: 90px;
     position: relative;
-}
-
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 48px;
-    align-items: center;
-}
-
-@media (min-width:900px) {
-    .hero-grid {
-        grid-template-columns: 7fr 5fr;
-    }
 }
 
 .tag-pill {
@@ -382,18 +349,6 @@ section {
 }
 
 /* About section and skills */
-.about-grid {
-    display: grid;
-    gap: 64px;
-}
-
-@media (min-width:900px) {
-    .about-grid {
-        grid-template-columns: 5fr 7fr;
-        align-items: center;
-    }
-}
-
 .about-text {
     font-weight: 300;
     color: rgba(15, 48, 87, 0.7);
